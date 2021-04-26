@@ -1,0 +1,108 @@
+* {
+    background-color: #8ab7b9;
+}
+
+
+.texto,
+.row_corpo,
+.corpo1,
+.corpo2,
+.corpo1 > h1,
+.corpo2 > h5 {
+    width: 100%
+}
+
+.corpo1 > h1 {
+
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    width: 100%;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: bold;
+
+
+}
+
+
+.corpo2 {
+    display: flex;
+    margin: 0 auto;
+}
+
+#parte1 {
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    display: flex;
+    font-size: 2rem;
+    color: #0c4852;
+
+}
+
+#parte2 {
+    text-align: justify;
+    display: flex;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0c4852;
+    padding: 2%;
+
+}
+
+
+
+@media (max-width: 1000px) {
+
+    .texto,
+    .row_corpo,
+    .corpo1,
+    .corpo2,
+    .corpo1 > h1,
+    .corpo2 > h5 {
+        width: 100%
+    }
+
+    .corpo1 > h1 {
+        margin: 10% 0 10% 0;
+        width: 100%;
+        text-align: center;
+/*        font-family: gabriola;*/
+        font-size: 30pt;
+        font-weight: bold;
+
+
+    }
+
+    #parte1 {
+        text-align: center;
+        width: 100%;
+        float: left;
+        display: flex;
+        margin-left: 5%;
+/*        font-family: gabriola;*/
+        font-size: 20pt;
+        color: #0c4852;
+
+    }
+
+    #parte2 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 20pt;
+        margin: 5%;
+/*        font-family: gabriola;*/
+        font-size: 25pt;
+
+    }
+
+}
+
+/* FINAL DO CORPO */
+
+
+/* RODAPÉ */

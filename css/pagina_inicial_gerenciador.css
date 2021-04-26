@@ -1,0 +1,80 @@
+div.group-rows {
+    background-color: var(--color-primary-lighter);
+    border: none;
+}
+
+img,
+button,
+h4.cadastros,
+div.botoes_cadastros {
+    background-color: var(--color-primary-lighter);
+    border: none;
+    cursor: pointer;
+
+}
+
+div.botoes_cadastros {
+    float: right;
+    padding: 1.5% 0% 1.5% 0%;
+}
+
+
+h4.cadastros {
+    float: left;
+    padding: 1.5% 0% 0.75% 0%;
+
+}
+
+
+div.row {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0.3rem;
+
+}
+
+div.row:hover {
+    transform: scale(1.01);
+    transition: all 0.1s linear;
+    background-color: var(--color-primary-light);
+}
+
+.img-responsive {
+    width: 70%;
+    cursor: pointer
+
+
+}
+
+.img-responsive:hover {
+    width: 70%;
+    transform: scale(1.1);
+    transition: all 0.1s linear;
+
+
+}
+.img-responsive:active {
+    width: 70%;
+    transform: scale(0.95);
+    transition: all 0.1s linear;
+
+
+}
+
+@media (max-width: 1000px) {
+
+    div.row {
+        width: 99%;
+    }
+
+    div.botoes_cadastros {
+        float: right;
+        padding: 1% 0% 1% 0%;
+        display: inline-block;
+
+    }
+
+
+
+
+}

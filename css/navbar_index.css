@@ -1,0 +1,232 @@
+.div_cabecalho,
+.row_cabecalho,
+.cabecalho,
+.div_logotipo,
+.div_logotipo > a,
+.div_logotipo > a > img,
+.cabecalho > form,
+.formulario,
+.formulario > label,
+.formulario > input,
+.formulario > p{
+    background-color: var(--header-color-background-index);
+    color: white;
+}
+
+#mensagem {
+    background-color: var(--header-color-background-index);
+    color: red;
+}
+
+img#logotipo {
+    width: 50%;
+    display: flex;
+    padding: 2% 0% 2% 10%;
+    /* top right bottom left */
+}
+
+div.formulario {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.label-inputs {
+    margin-left: 2%;
+    margin-right: 1%;
+}
+
+input#email,
+input#senha,
+input#enviar {
+
+    height: 50%;
+    display: block;
+}
+
+
+
+#cadastre {
+    margin-left: 1%;
+}
+
+#enviar {
+    margin-left: 1%;
+}
+
+
+p#cadastre,
+p#cadastre > a {
+    color: #17a2b8;
+}
+
+
+h3#titulo_chave {
+    color: #02869b;
+    margin-right: 2%;
+    background-color: var(--header-color-background-index);
+
+}
+
+input#chave {
+    width: 35%;
+
+    height: 50px;
+    display: block;
+
+}
+
+input#continuar {
+
+    height: 50px;
+    display: block;
+    margin-left: 2%;
+}
+
+
+
+
+
+@media (max-width: 1000px) {
+
+
+    img#logotipo {
+        width: 90%;
+        display: flex;
+        margin: 0 auto;
+        padding-bottom: 25%;
+        padding-left: 5%;
+        padding-top: 15%;
+    }
+
+    div.formulario {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    input#email,
+    input#senha {
+
+        width: 100%;
+        display: block;
+    }
+
+    .label-inputs {
+        margin: 5% 5% 5% 0%;
+    }
+
+    input#enviar {
+        margin-top: 10%;
+        width: 5rem;
+        margin-bottom: 10px;
+    }
+
+    p#cadastre,
+    p#cadastre > a {
+        margin-bottom: 35%;
+        color: #17a2b8;
+    }
+
+
+
+
+}
+
+@media (max-width: 572px) {
+
+    img#logotipo {
+        width: 60%;
+        display: flex;
+        margin: 0 auto;
+        padding-bottom: 25%;
+        padding-left: 5%;
+        padding-top: 15%;
+    }
+
+
+
+}
+
+@media (max-width: 490px) {
+
+    img#logotipo {
+        width: 70%;
+        display: flex;
+        margin: 0 auto;
+        padding-bottom: 25%;
+        padding-left: 5%;
+        padding-top: 15%;
+    }
+
+
+    input#enviar {
+        margin-top: 10%;
+        width: 5rem;
+        margin-bottom: 10px;
+    }
+
+
+
+
+}
+
+
+/* FINAL DA FORMATAÇÃO DE CABECALHO*/
+
+
+/* RODAPÉ */
+
+.div_rodape,
+.row.rodape,
+.rodape1,
+.texto-rodape,
+b {
+
+    padding-top: 0%;
+    padding-bottom: 1%;
+    background-color: var(--header-color-background-index);
+    color: #555252;
+    font-size: 12pt;
+}
+
+
+.row.rodape {
+    padding: 1% 10% 4% 10%;
+
+}
+
+p.gerenciador > a {
+    color: #005360;
+
+}
+
+
+
+@media (max-width: 800px) {
+
+    .div_rodape,
+    .row.rodape,
+    .rodape1,
+    .texto-rodape,
+    b {
+        padding-top: 0%;
+        padding-bottom: 1%;
+        background-color: var(--header-color-background-index);
+        color: #555252;
+        font-size: 9pt;
+    }
+
+    p > a {
+        color: #005360;
+
+    }
+
+    p.texto-rodape#criadores {
+        padding-top: 15%;
+    }
+
+
+}

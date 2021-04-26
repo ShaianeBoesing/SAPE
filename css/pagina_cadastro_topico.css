@@ -1,0 +1,66 @@
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+label.form-label {
+    display: block;
+    color: dimgray;
+}
+
+h3 {
+    margin-bottom: 5rem;
+}
+
+
+input#input-nome-topico,
+input#input-link-topico {
+    height: 3rem;
+    border: none;
+    background-color: var(--input-background-color);
+    margin-bottom: 10px;
+}
+
+
+button.cadastrar {
+    background-color: var(--color-primary-dark);
+    height: 3rem;
+    width: 110px;
+    color: white;
+}
+
+button.cadastrar:hover {
+    background-color: var(--color-primary-darker);
+}
+
+button.cadastrar:active {
+    background-color: var(--color-primary-darker);
+    transform: scale(1.07);
+    transition: all 0.1s ease-out;
+}
+
+button#dropdownMenu2.btn.btn-secondary.dropdown-toggle {
+    height: 3rem;
+    width: 110px;
+    background-color: var(--color-text-base);
+    border: none;
+    text-align: left;
+    margin-bottom: 10px;
+
+}
+
+
+@media (max-width: 1000px) {
+
+    form {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+}
+
+/* JS */
+
+.erro {
+    color: red;
+}

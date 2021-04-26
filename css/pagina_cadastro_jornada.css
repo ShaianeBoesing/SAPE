@@ -1,0 +1,90 @@
+form {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.titulo {
+    /*    padding-top: 10%;*/
+}
+
+.container {
+    margin-top: 1%;
+    box-shadow: 0px 0px 20px 1px rgba(2, 5, 5, 0.26);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 150%;
+}
+
+.form-label {
+    margin-top: 5%;
+    font-size: 130%;
+            padding: 2%;
+
+}
+
+.checkbox.obrigatorio {
+    display: block;
+}
+
+.btn {
+    width: 100%;
+
+}
+
+label.btn.btn-outline-info {
+    text-align: justify;
+
+}
+
+select.dropdown {
+    width: 100%;
+}
+
+button.cadastrar {
+    background-color: var(--color-primary-dark);
+    height: 3rem;
+    width: 10rem;
+    color: white;
+    margin-top: 5%;
+}
+
+button.cadastrar:hover {
+    background-color: var(--color-primary-darker);
+}
+
+button.cadastrar:active {
+    background-color: var(--color-primary-darker);
+    transform: scale(1.07);
+    transition: all 0.1s ease-out;
+
+
+}
+
+
+@media (max-width: 1000px) {
+
+    form {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .form-label {
+        margin-top: 5%;
+        font-size: 100%;
+    }
+
+    button.cadastrar {
+        margin-top: 20%;
+
+    }
+
+
+}
+
+
+/* JS */
+
+.erro {
+    color: red;
+}

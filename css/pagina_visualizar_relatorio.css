@@ -1,0 +1,47 @@
+table tr:nth-child(even) td:nth-child(odd) {
+    background: #dfe4e5;
+}
+
+table tr:nth-child(odd) td:nth-child(even) {
+    background: #ffffff;
+}
+
+table th:nth-child(even) th:nth-child(odd) {
+    background: #9ebdc3;
+}
+
+table th:nth-child(odd) th:nth-child(even) {
+    background: #9ebdc3;
+}
+
+
+table tr,
+table td,
+table th {
+    padding: 7px;
+    text-align: center;
+}
+
+div.div_cabecalho {
+    margin-bottom: 50px;
+}
+
+table {
+    margin-top: 5%;
+}
+
+#titulo {
+    color: #1e7283;
+    text-align: center;
+    margin-top: 7%;
+}
+
+img {
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    font-family: sans-serif;
+}

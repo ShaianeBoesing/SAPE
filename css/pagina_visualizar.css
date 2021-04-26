@@ -1,0 +1,44 @@
+div.tabela_visualizar {
+    display: flex;
+    margin: 0 auto;
+    width: 60%;
+
+}
+
+.botao-voltar {
+    margin-left: 1rem;
+}
+
+input.excluir {
+    align-self: center;
+}
+
+
+@media (max-width: 1000px) {
+
+    div.tabela_visualizar {
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .botao-busca {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+}
+
+.excluir {
+    float: right
+}
+
+.msg_sucesso {
+    color: green;
+}
+
+#btn-editar,
+#btn-excluir {
+    color: white;
+}

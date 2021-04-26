@@ -1,0 +1,44 @@
+div.container-roteiro {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+div.corpoRoteiro,
+div.tituloRoteiro {
+
+    width: 80%;
+    border: none;
+
+}
+
+div.tituloRoteiro {
+    margin: 0 auto;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #575353;
+    color: white;
+}
+
+div.corpoRoteiro {
+    margin: 0 auto;
+    padding-bottom: 6%;
+    padding-top: 6%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 10%;
+    background-image: linear-gradient(to right, #c2d6d5, #acded8, #9dced0);
+}
+
+.vazio {
+    padding-top: 10%;
+    font-size: 200%;
+    margin: 0 auto;
+    width: bold;
+    
+}

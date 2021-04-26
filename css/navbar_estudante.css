@@ -1,0 +1,87 @@
+* {
+    background-color: var(--color-background-index);
+}
+
+
+
+
+/*LOGOTIPO */
+
+.div_cabecalho,
+.div_logotipo,
+.div_logotipo > a > #logotipo {
+    background-color: var(--header-color-background-index);
+    padding: 0.5%;
+}
+
+
+div.div_logotipo {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#logotipo {
+    display: flex;
+    margin: 0 auto;
+    background-color: var(--header-color-background-index);
+    text-align: center;
+    width: 60%;
+    height: 60%;
+
+
+}
+
+@media (max-width: 1200px) {
+
+    #logotipo {
+        width: 40%;
+    }
+
+}
+
+a.navbar-brand {
+    display: flex;
+    margin: 0 auto;
+    padding: 1rem;
+
+}
+
+/*NAVBAR */
+
+nav {
+    font-size: 100%;
+}
+
+.nav-link {
+    margin: 1rem;
+}
+
+button.navbar-toggler {
+    border: none;
+}
+
+span.navbar-toggler-icon:active {
+    transform: scale(1.1);
+    transition: all 0.1s linear;
+    color: #209881;
+}
+
+@media (max-width: 1200px) {
+
+    nav {
+        font-size: 90%;
+    }
+
+    button.navbar-toggler,
+    a {
+        display: flex;
+        margin: 0 auto;
+        text-align: center;
+
+    }
+
+}
